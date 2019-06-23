@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+
+.fc-unthemed td.fc-today {
+       background-image: radial-gradient(#3e87ed,#3073d0,#2866be);
+}
+.fc-button-primary:disabled {
+    color: #fff;
+     background-image: radial-gradient(#3e87ed,#3073d0,#2866be);
+    border-color: #3e87ed;
+	border-radius:5px;
+}
+.fc-button-group > .fc-button:not(:last-child) {
+    border-radius: 50%;
+}
+.fc-button-group > .fc-button:not(:first-child) {
+    border-radius: 50%;
+    margin-left: 10px;
+}
