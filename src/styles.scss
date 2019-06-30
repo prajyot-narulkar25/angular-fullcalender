@@ -2,6 +2,8 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~@fullcalendar/core/main.css';
 @import '~@fullcalendar/daygrid/main.css';
+@import "~@fullcalendar/list/main.css";
+
 
 .fc-unthemed td.fc-today {
        background-image: radial-gradient(#3e87ed,#3073d0,#2866be);
@@ -13,9 +15,9 @@
 	border-radius:5px;
 }
 .fc-button-group > .fc-button:not(:last-child) {
-    border-radius: 50%;
+    // border-radius: 50%;
 }
 .fc-button-group > .fc-button:not(:first-child) {
-    border-radius: 50%;
+    // border-radius: 50%;
     margin-left: 10px;
 }

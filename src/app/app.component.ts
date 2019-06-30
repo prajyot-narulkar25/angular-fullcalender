@@ -1,7 +1,7 @@
 import { Component,ViewChild } from '@angular/core';
 import dayGridPlugin from '@fullcalendar/daygrid';
-//import { FullCalendarComponent } from '@fullcalendar/angular';
-//import listPlugin from '@fullcalendar/list';
+import listPlugin from '@fullcalendar/list';
+import timeGrigPlugin from '@fullcalendar/timegrid';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +11,7 @@ import dayGridPlugin from '@fullcalendar/daygrid';
 export class AppComponent {
   //@ViewChild('calendar') calendarComponent: FullCalendarComponent;
 
-  calendarPlugins = [dayGridPlugin];
+  calendarPlugins = [dayGridPlugin,listPlugin,timeGrigPlugin];
   title = 'Fullcalendar';
   calendarEvents = [
     { title: 'event 1', date: '2019-07-01' }
