@@ -3,11 +3,11 @@
 @import '~@fullcalendar/core/main.css';
 @import '~@fullcalendar/daygrid/main.css';
 @import "~@fullcalendar/list/main.css";
+@import "../node_modules/ngx-bootstrap/datepicker/bs-datepicker.css";
 
-
-.fc-unthemed td.fc-today {
-       background-image: radial-gradient(#3e87ed,#3073d0,#2866be);
-}
+//.fc-unthemed td.fc-today {
+//       background-image: radial-gradient(#3e87ed,#3073d0,#2866be);
+//}
 .fc-button-primary:disabled {
     color: #fff;
      background-image: radial-gradient(#3e87ed,#3073d0,#2866be);
